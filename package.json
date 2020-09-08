@@ -6,7 +6,7 @@
 	  "test" : "tests"
   },
   "scripts": {
-    "api-test-production": "newman run tests/jsonplacec.postman_collection.json"
+    "api-test-production": "newman run tests/jsonplacec.postman_collection.json --reporters cli , junit --reporter-junit-export newman.xml"
   },
   "author": "Praveen",
   "license": "ISC",
