@@ -1,0 +1,16 @@
+{
+  "name": "testcases",
+  "version": "1.0.0",
+  "description": "Project for stroring postman tests",
+  "directories": {
+	  "test" : "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/jsonplacec.postman_collection.json"
+  },
+  "author": "Praveen",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.0"
+  }
+}
